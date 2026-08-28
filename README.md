@@ -118,7 +118,7 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 | Organización por categorías | ✅ Completado |
 | Integración de Alcaza-IA | ✅ Completado |
 | Optimización inicial | ✅ Completado |
-| Capturas definitivas | 🔄 En preparación |
+| Capturas definitivas | ✅ Completado |
 | Documentación pública | 🔄 En preparación |
 | Validación de la OVA | ⏳ Pendiente |
 | Versión definitiva | 🚧 En desarrollo |
@@ -147,16 +147,6 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 
 
 `[URL_DE_DESCARGA]`(https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
-
-<!--
-<div align="center">
-
-[![Descargar Alcázar-OS](https://img.shields.io/badge/Descargar-Alcázar--OS_v0.1-e52b2f?style=for-the-badge&logo=linux&logoColor=white)](URL_DE_DESCARGA)
-
-**Formato:** OVA · **Versión:** v0.1 · **Estado:** versión validada
-
-</div>
--->
 
 ## ⚖️ Uso responsable
 
