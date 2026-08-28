@@ -104,11 +104,18 @@ Privoxy disponibles únicamente cuando son necesarios.
 Las capturas definitivas del escritorio, el menú, Alcaza-IA y los flujos de
 investigación se incorporarán progresivamente en `assets/capturas/`.
 
-<!--
 <p align="center">
-  <img src="assets/capturas/01-escritorio-alcazar-os.png" alt="Escritorio principal de Alcázar-OS" width="800">
+<img
+  class="shot"
+  src="assets/capturas/01-escritorio-alcazar-os.png"
+  alt="Escritorio principal de Alcázar-OS"
+  loading="lazy"
+>
 </p>
--->
+
+<p align="center">
+  <em>Escritorio principal de Alcázar-OS v0.1.</em>
+</p>
 
 ## 🚧 Estado actual
 
