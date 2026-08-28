@@ -143,10 +143,10 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 > [!WARNING]
 > La OVA todavía se descarga desde un protondrive al no tener aun un enlace oficial de descarga al no tener la > web oficial
 
-### Activar el botón de descarga
+### Enlace de descarga
 
 
-`URL_DE_DESCARGA`
+`[URL_DE_DESCARGA](https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)`
 
 <!--
 <div align="center">
