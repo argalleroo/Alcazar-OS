@@ -158,10 +158,6 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 </div>
 -->
 
-> [!TIP]
-> Si el archivo es grande, puedes alojarlo en una publicación de **GitHub
-> Releases** u otro servicio de almacenamiento y colocar aquí su enlace directo.
-
 ## ⚖️ Uso responsable
 
 Alcázar-OS es un proyecto académico y experimental en desarrollo. Sus herramientas
@@ -182,5 +178,7 @@ referenciados por el proyecto mantienen sus licencias originales.
 <div align="center">
 
 **Alcázar-OS v0.1** · Construyendo una estación abierta, privada y modular para la ciberinteligencia.
+El conocimiento es poder.
+La informacion es ventaja
 
 </div>
