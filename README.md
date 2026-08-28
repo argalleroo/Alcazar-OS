@@ -118,9 +118,9 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 | Organización por categorías | ✅ Completado |
 | Integración de Alcaza-IA | ✅ Completado |
 | Optimización inicial | ✅ Completado |
-| Capturas definitivas | 🔄 En preparación |
+| Capturas definitivas | ✅ Completado |
 | Documentación pública | 🔄 En preparación |
-| Validación de la OVA | ⏳ Pendiente |
+| Validación de la OVA | ✅ Completado |
 | Versión definitiva | 🚧 En desarrollo |
 
 ## 🗺️ Hoja de ruta
@@ -130,7 +130,7 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 - [x] Organizar las aplicaciones en ocho categorías.
 - [x] Integrar Alcaza-IA con Jan, llama.cpp y Qwen2.5.
 - [x] Optimizar los servicios y el consumo en reposo.
-- [ ] Validar definitivamente la máquina virtual OVA.
+- [x] Validar definitivamente la máquina virtual OVA.
 - [ ] Publicar la documentación de usuario y técnica.
 - [ ] Ampliar y actualizar el catálogo de herramientas.
 - [ ] Mejorar la integración entre Alcaza-IA y el sistema.
@@ -143,24 +143,6 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 Este repositorio contiene el blog estático de Alcázar-OS. Está desarrollado con
 HTML y CSS, sin frameworks ni dependencias externas.
 
-### Publicación mediante GitHub Pages
-
-1. Abre **Settings → Pages** dentro del repositorio.
-2. En **Build and deployment**, selecciona **Deploy from a branch**.
-3. Elige la rama `main` y la carpeta `/ (root)`.
-4. Guarda la configuración.
-
-GitHub Pages publicará el sitio directamente desde `index.html`.
-
-```text
-.
-├── .nojekyll
-├── README.md
-├── index.html
-├── styles.css
-└── assets/
-    └── capturas/
-```
 
 ## 📦 Documentación y descarga
 
