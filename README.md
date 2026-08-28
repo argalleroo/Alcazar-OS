@@ -146,7 +146,7 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 ### Enlace de descarga
 
 
-`[URL_DE_DESCARGA](https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)`
+`[URL_DE_DESCARGA]`(https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
 
 <!--
 <div align="center">
