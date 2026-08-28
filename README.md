@@ -99,7 +99,7 @@ Las mediciones se realizaron en una máquina virtual con **6 vCPU** y aproximada
 La mejora se obtuvo al desactivar el inicio automático de Tor y mantener Tor y
 Privoxy disponibles únicamente cuando son necesarios.
 
-## 🖼️ Capturas
+## 🖼️ Captura
 
 Las capturas definitivas del escritorio, el menú, Alcaza-IA y los flujos de
 investigación se incorporarán progresivamente en `assets/capturas/`.
