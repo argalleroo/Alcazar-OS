@@ -106,7 +106,7 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 
 <!--
 <p align="center">
-  <img src="assets/capturas/escritorio.webp" alt="Escritorio principal de Alcázar-OS" width="800">
+  <img src="assets/capturas/01-escritorio-alcazar-os.png" alt="Escritorio principal de Alcázar-OS" width="800">
 </p>
 -->
 
@@ -118,9 +118,9 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 | Organización por categorías | ✅ Completado |
 | Integración de Alcaza-IA | ✅ Completado |
 | Optimización inicial | ✅ Completado |
-| Capturas definitivas | ✅ Completado |
+| Capturas definitivas | 🔄 En preparación |
 | Documentación pública | 🔄 En preparación |
-| Validación de la OVA | ✅ Completado |
+| Validación de la OVA | ⏳ Pendiente |
 | Versión definitiva | 🚧 En desarrollo |
 
 ## 🗺️ Hoja de ruta
@@ -130,7 +130,7 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 - [x] Organizar las aplicaciones en ocho categorías.
 - [x] Integrar Alcaza-IA con Jan, llama.cpp y Qwen2.5.
 - [x] Optimizar los servicios y el consumo en reposo.
-- [x] Validar definitivamente la máquina virtual OVA.
+- [ ] Validar definitivamente la máquina virtual OVA.
 - [ ] Publicar la documentación de usuario y técnica.
 - [ ] Ampliar y actualizar el catálogo de herramientas.
 - [ ] Mejorar la integración entre Alcaza-IA y el sistema.
@@ -138,24 +138,44 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 - [ ] Realizar nuevas pruebas de estabilidad y rendimiento.
 - [ ] Preparar una versión definitiva para distribución.
 
-## 🌐 Blog del proyecto
-
-Este repositorio contiene el blog estático de Alcázar-OS. Está desarrollado con
-HTML y CSS, sin frameworks ni dependencias externas.
-
-
 ## 📦 Documentación y descarga
 
 > [!WARNING]
-> La OVA todavía no cuenta con una descarga pública oficial. Los enlaces de
-> documentación y distribución se añadirán únicamente después de completar su
-> revisión y validación.
+> La OVA todavía se descarga desde un protondrive al no tener aun un enlace oficial de descarga al no tener la > web oficial
+
+### Activar el botón de descarga
+
+
+`URL_DE_DESCARGA`
+
+<!--
+<div align="center">
+
+[![Descargar Alcázar-OS](https://img.shields.io/badge/Descargar-Alcázar--OS_v0.1-e52b2f?style=for-the-badge&logo=linux&logoColor=white)](URL_DE_DESCARGA)
+
+**Formato:** OVA · **Versión:** v0.1 · **Estado:** versión validada
+
+</div>
+-->
+
+> [!TIP]
+> Si el archivo es grande, puedes alojarlo en una publicación de **GitHub
+> Releases** u otro servicio de almacenamiento y colocar aquí su enlace directo.
 
 ## ⚖️ Uso responsable
 
 Alcázar-OS es un proyecto académico y experimental en desarrollo. Sus herramientas
 deben utilizarse exclusivamente con fines legítimos, educativos y de investigación,
 respetando la legislación aplicable y las autorizaciones correspondientes.
+
+## 📄 Licencia
+
+El código original de Alcázar-OS se publica bajo la licencia **GNU General Public
+License v3.0 (GPL-3.0)**. Puedes utilizarlo, estudiarlo, modificarlo y redistribuirlo
+de acuerdo con los términos incluidos en el archivo `LICENSE`.
+
+Las aplicaciones, modelos, recursos y componentes de terceros integrados o
+referenciados por el proyecto mantienen sus licencias originales.
 
 ---
 
