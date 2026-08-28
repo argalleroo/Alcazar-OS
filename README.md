@@ -1,207 +1,184 @@
-Sistema operativo para OSINT, ciberinteligencia, análisis forense e inteligencia artificial local.
+<div align="center">
 
-Alcázar-OS es una distribución especializada basada en Debian GNU/Linux 13 “Trixie”. Reúne herramientas de investigación, análisis y elaboración de informes en un entorno ligero, modular y organizado.
+# 🏰 Alcázar-OS
 
-El proyecto incorpora Alcaza-IA, un asistente de inteligencia artificial ejecutado localmente mediante Jan, llama.cpp y Qwen2.5-3B-Instruct Q4_K_M.
+### Ciberinteligencia, investigación e inteligencia artificial local
 
-Alcázar-OS nació como parte de un Trabajo Fin de Máster, pero no es un proyecto abandonado ni cerrado. Continuará manteniéndose, ampliándose y mejorándose hasta alcanzar una versión definitiva, estable y preparada para su distribución.
+![Versión](https://img.shields.io/badge/versión-v0.1-e52b2f?style=for-the-badge)
+![Estado](https://img.shields.io/badge/estado-desarrollo_activo-e52b2f?style=for-the-badge)
+![Base](https://img.shields.io/badge/base-Debian_13-111111?style=for-the-badge&logo=debian&logoColor=white)
+![Licencia](https://img.shields.io/badge/licencia-pendiente-555555?style=for-the-badge)
 
-Estado del proyecto
+**Alcázar-OS** es una distribución basada en Debian para OSINT, ciberinteligencia,
+análisis forense e inteligencia artificial local mediante **Alcaza-IA**.
 
-Versión actual: Alcázar-OS v0.1Estado: prototipo funcional en desarrollo activoBase: Debian GNU/Linux 13 “Trixie”Distribución pública: pendiente de validación
+Nace como parte de un Trabajo Fin de Máster, pero es un proyecto activo y con
+futuro: continuará manteniéndose, ampliándose y mejorándose hasta alcanzar una
+versión definitiva, estable y preparada para su distribución.
 
-La máquina virtual en formato OVA y los enlaces de descarga se publicarán cuando hayan sido revisados y validados. Actualmente no existe una descarga pública oficial.
+[Explorar el proyecto](#-el-proyecto) · [Capacidades](#-capacidades) · [Resultados](#-resultados) · [Hoja de ruta](#-hoja-de-ruta)
 
-Objetivos
+</div>
 
-Reunir herramientas de ciberinteligencia en una única plataforma.
+---
 
-Organizar las aplicaciones según el flujo de trabajo del analista.
+## 🔴 El proyecto
 
-Mantener un consumo moderado de recursos.
+Alcázar-OS reúne herramientas que normalmente se utilizan de forma independiente
+en una estación ligera, modular y organizada alrededor del flujo de trabajo del
+analista.
 
-Ejecutar inteligencia artificial de forma local.
+Su objetivo no es competir por cantidad de aplicaciones, sino ofrecer un entorno
+coherente para investigar, analizar, proteger la información y elaborar resultados.
 
-Activar los servicios de anonimato únicamente cuando sean necesarios.
+> [!IMPORTANT]
+> **Alcázar-OS no es un proyecto terminado ni abandonado.** La versión v0.1 es el
+> punto de partida de un desarrollo que seguirá recibiendo mantenimiento, mejoras
+> y nuevas funciones hasta alcanzar una versión definitiva.
 
-Facilitar la investigación, el análisis y la creación de informes.
+## 🧱 Arquitectura
 
-Construir una plataforma modular que pueda mantenerse y ampliarse.
+| Capa | Componentes |
+|:--|:--|
+| **Base** | Debian GNU/Linux 13 “Trixie” |
+| **Escritorio** | LXQt, XFWM4, X11, SDDM y Thunar |
+| **Capacidades** | OSINT, CTI, GEOINT, IMINT, forense, IA, anonimato y reportes |
+| **Inteligencia artificial** | Jan, llama.cpp y Qwen2.5-3B-Instruct Q4_K_M |
+| **Interacción** | Menú organizado, aplicaciones locales, terminal y recursos web |
 
-Categorías
+## 🧭 Capacidades
 
-Las aplicaciones y recursos se organizan en ocho áreas:
+| | Categoría | Función | Algunas herramientas |
+|:--:|:--|:--|:--|
+| **01** | **OSINT** | Investigación de fuentes abiertas | Sherlock, Maigret, Holehe, theHarvester |
+| **02** | **CTI** | Inteligencia de amenazas | YARA, Sigma, VirusTotal CLI |
+| **03** | **GEOINT** | Análisis geoespacial | QGIS y recursos especializados |
+| **04** | **IMINT** | Imágenes y metadatos | ExifTool, GIMP, ImageMagick, Steghide |
+| **05** | **FORENSE** | Evidencias, discos y memoria | Autopsy, Sleuth Kit, Volatility, Binwalk |
+| **06** | **IA** | Asistencia local al analista | Jan, llama.cpp, Qwen2.5 |
+| **07** | **ANONIMATO** | Privacidad bajo demanda | Tor Browser, Torsocks, ProxyChains, Privoxy |
+| **08** | **REPORTES** | Elaboración de entregables | LibreOffice Writer, Pandoc, Okular |
 
-Número
+## 🧠 Alcaza-IA
 
-Categoría
+Alcaza-IA incorpora asistencia de inteligencia artificial ejecutada localmente.
+Las consultas no necesitan enviarse obligatoriamente a un servicio externo.
 
-Finalidad
+```text
+┌──────────────┐      ┌──────────────┐      ┌─────────────────────┐
+│     Jan      │ ───▶ │  llama.cpp   │ ───▶ │ Qwen2.5-3B Q4_K_M │
+│  Interfaz    │      │    Motor     │      │       Modelo        │
+└──────────────┘      └──────────────┘      └─────────────────────┘
+```
 
-01
+Durante el proyecto se compararon modelos Qwen2.5 Instruct de **1,5B** y **3B**
+parámetros. El modelo de 3B fue seleccionado por ofrecer un equilibrio más adecuado
+entre calidad de respuesta y consumo de recursos.
 
-OSINT
+> [!NOTE]
+> Alcaza-IA funciona como herramienta de apoyo. La información generada debe ser
+> revisada, contrastada y validada por el analista.
 
-Investigación de fuentes abiertas
+## 📊 Resultados
 
-02
+Las mediciones se realizaron en una máquina virtual con **6 vCPU** y aproximadamente
+**8 GiB de RAM**.
 
-CTI
+| Métrica | Antes | Después | Mejora |
+|:--|--:|--:|--:|
+| RAM utilizada en reposo | 985 MiB | **764 MiB** | **−22,4 %** |
+| Tiempo de arranque | 11,003 s | **8,223 s** | **−25,3 %** |
+| Servicios activos | 17 | **16** | **−1** |
 
-Inteligencia de amenazas
+### Con Alcaza-IA activa
 
-03
+| RAM utilizada | RAM disponible | Swap utilizada |
+|:--:|:--:|:--:|
+| **≈ 3,0 GiB** | **≈ 4,7 GiB** | **0 B** |
 
-GEOINT
+La mejora se obtuvo al desactivar el inicio automático de Tor y mantener Tor y
+Privoxy disponibles únicamente cuando son necesarios.
 
-Análisis geoespacial
+## 🖼️ Capturas
 
-04
+Las capturas definitivas del escritorio, el menú, Alcaza-IA y los flujos de
+investigación se incorporarán progresivamente en `assets/capturas/`.
 
-IMINT
-
-Análisis de imágenes y metadatos
-
-05
-
-FORENSE
-
-Informática forense y recuperación de evidencias
-
-06
-
-IA
-
-Asistencia mediante inteligencia artificial local
-
-07
-
-ANONIMATO
-
-Privacidad y anonimato bajo demanda
-
-08
-
-REPORTES
-
-Elaboración y revisión de informes
-
-Alcaza-IA
-
-Alcaza-IA proporciona asistencia local para organizar investigaciones, plantear metodologías, analizar información y preparar documentación.
-
-Su arquitectura está compuesta por:
-
-Jan como interfaz gráfica.
-
-llama.cpp como motor de inferencia.
-
-Qwen2.5-3B-Instruct Q4_K_M como modelo seleccionado.
-
-También se evaluó Qwen2.5 de 1,5B parámetros, pero el modelo de 3B ofreció un equilibrio más adecuado entre calidad de respuesta y consumo de recursos.
-
-La IA sirve como herramienta de apoyo. Sus resultados deben ser revisados y contrastados por el analista.
-
-Arquitectura
-
-Alcázar-OS utiliza:
-
-Debian GNU/Linux 13 “Trixie”.
-
-LXQt como entorno de escritorio.
-
-XFWM4 como gestor de ventanas.
-
-X11 como sistema gráfico.
-
-SDDM como gestor de acceso.
-
-Thunar como gestor de archivos.
-
-La interfaz, el menú de aplicaciones, GRUB y la pantalla de acceso cuentan con una identidad visual propia.
-
-Métricas
-
-Las pruebas se realizaron en una máquina virtual con 6 vCPU y aproximadamente 8 GiB de RAM.
-
-Medición
-
-Antes
-
-Después
-
-Memoria utilizada en reposo
-
-985 MiB
-
-764 MiB
-
-Servicios activos
-
-17
-
-16
-
-Tiempo de arranque
-
-11,003 s
-
-8,223 s
-
-Con Jan y Qwen2.5-3B activos:
-
-Aproximadamente 3,0 GiB de RAM utilizada.
-
-Aproximadamente 4,7 GiB disponibles.
-
-0 B de memoria swap utilizada.
-
-La optimización principal consistió en impedir que Tor y Privoxy se ejecutaran automáticamente, manteniéndolos disponibles bajo demanda.
-
-Capturas
-
-Las capturas definitivas del sistema se incorporarán progresivamente.
-
-<!-- Ejemplo:
-![Escritorio de Alcázar-OS](assets/capturas/escritorio.webp)
+<!--
+<p align="center">
+  <img src="assets/capturas/escritorio.webp" alt="Escritorio principal de Alcázar-OS" width="800">
+</p>
 -->
 
-Hoja de ruta
+## 🚧 Estado actual
 
-Las siguientes líneas de trabajo están previstas para futuras versiones:
+| Elemento | Estado |
+|:--|:--:|
+| Prototipo funcional | ✅ Completado |
+| Organización por categorías | ✅ Completado |
+| Integración de Alcaza-IA | ✅ Completado |
+| Optimización inicial | ✅ Completado |
+| Capturas definitivas | 🔄 En preparación |
+| Documentación pública | 🔄 En preparación |
+| Validación de la OVA | ⏳ Pendiente |
+| Versión definitiva | 🚧 En desarrollo |
 
-Validación definitiva de la máquina virtual OVA.
+## 🗺️ Hoja de ruta
 
-Ampliación y actualización del catálogo de herramientas.
+- [x] Construir la base sobre Debian 13.
+- [x] Crear la identidad visual de Alcázar-OS.
+- [x] Organizar las aplicaciones en ocho categorías.
+- [x] Integrar Alcaza-IA con Jan, llama.cpp y Qwen2.5.
+- [x] Optimizar los servicios y el consumo en reposo.
+- [ ] Validar definitivamente la máquina virtual OVA.
+- [ ] Publicar la documentación de usuario y técnica.
+- [ ] Ampliar y actualizar el catálogo de herramientas.
+- [ ] Mejorar la integración entre Alcaza-IA y el sistema.
+- [ ] Investigar mecanismos RAG y nuevas automatizaciones.
+- [ ] Realizar nuevas pruebas de estabilidad y rendimiento.
+- [ ] Preparar una versión definitiva para distribución.
 
-Mayor integración entre Alcaza-IA y las aplicaciones del sistema.
+## 🌐 Blog del proyecto
 
-Incorporación de mecanismos RAG.
+Este repositorio contiene el blog estático de Alcázar-OS. Está desarrollado con
+HTML y CSS, sin frameworks ni dependencias externas.
 
-Automatización de tareas de investigación.
+### Publicación mediante GitHub Pages
 
-Mejora del sistema de actualización y mantenimiento.
+1. Abre **Settings → Pages** dentro del repositorio.
+2. En **Build and deployment**, selecciona **Deploy from a branch**.
+3. Elige la rama `main` y la carpeta `/ (root)`.
+4. Guarda la configuración.
 
-Realización de nuevas pruebas de estabilidad y rendimiento.
+GitHub Pages publicará el sitio directamente desde `index.html`.
 
-Revisión de seguridad, privacidad y eliminación de datos personales.
+```text
+.
+├── .nojekyll
+├── README.md
+├── index.html
+├── styles.css
+└── assets/
+    └── capturas/
+```
 
-Publicación de documentación técnica y manuales de uso.
+## 📦 Documentación y descarga
 
-Preparación de una versión definitiva para su distribución.
+> [!WARNING]
+> La OVA todavía no cuenta con una descarga pública oficial. Los enlaces de
+> documentación y distribución se añadirán únicamente después de completar su
+> revisión y validación.
 
-Blog del proyecto
+## ⚖️ Uso responsable
 
-Este repositorio contiene el sitio web estático de Alcázar-OS. Está desarrollado con HTML y CSS, sin frameworks ni dependencias externas.
+Alcázar-OS es un proyecto académico y experimental en desarrollo. Sus herramientas
+deben utilizarse exclusivamente con fines legítimos, educativos y de investigación,
+respetando la legislación aplicable y las autorizaciones correspondientes.
 
-Publicación con GitHub Pages
+---
 
-Accede a Settings → Pages dentro del repositorio.
+<div align="center">
 
-Selecciona Deploy from a branch.
+**Alcázar-OS v0.1** · Construyendo una estación abierta, privada y modular para la ciberinteligencia.
 
-Elige la rama main.
-
-Selecciona la carpeta / (root).
-
-Guarda la configuración.
+</div>
