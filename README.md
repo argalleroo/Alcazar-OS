@@ -7,7 +7,7 @@
 ![Versión](https://img.shields.io/badge/versión-v0.1-e52b2f?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/estado-desarrollo_activo-e52b2f?style=for-the-badge)
 ![Base](https://img.shields.io/badge/base-Debian_13-111111?style=for-the-badge&logo=debian&logoColor=white)
-![Licencia](https://img.shields.io/badge/licencia-pendiente-555555?style=for-the-badge)
+![Licencia](https://img.shields.io/badge/licencia-GPL--3.0-e52b2f?style=for-the-badge)
 
 **Alcázar-OS** es una distribución basada en Debian para OSINT, ciberinteligencia,
 análisis forense e inteligencia artificial local mediante **Alcaza-IA**.
