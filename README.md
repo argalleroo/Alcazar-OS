@@ -164,8 +164,8 @@ Alcázar-OS es un proyecto académico y experimental en desarrollo. Sus herramie
 deben utilizarse exclusivamente con fines legítimos, educativos y de investigación,
 respetando la legislación aplicable y las autorizaciones correspondientes.
 
-El conocimiento es poder.
-La informacion es ventaja
+< El conocimiento es poder.
+< La informacion es ventaja.
 
 
 ## 📄 Licencia
