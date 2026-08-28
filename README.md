@@ -164,6 +164,10 @@ Alcázar-OS es un proyecto académico y experimental en desarrollo. Sus herramie
 deben utilizarse exclusivamente con fines legítimos, educativos y de investigación,
 respetando la legislación aplicable y las autorizaciones correspondientes.
 
+El conocimiento es poder.
+La informacion es ventaja
+
+
 ## 📄 Licencia
 
 El código original de Alcázar-OS se publica bajo la licencia **GNU General Public
@@ -178,7 +182,5 @@ referenciados por el proyecto mantienen sus licencias originales.
 <div align="center">
 
 **Alcázar-OS v0.1** · Construyendo una estación abierta, privada y modular para la ciberinteligencia.
-El conocimiento es poder.
-La informacion es ventaja
 
 </div>
