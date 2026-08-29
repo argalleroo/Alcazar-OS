@@ -148,18 +148,14 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 ## 📦 Documentación y descarga
 
 > [!WARNING]
-> La OVA todavía se descarga desde un protondrive al no tener aun un enlace oficial de descarga al no tener la web oficial
-
-### Enlace de descarga
-
-
-> [!WARNING]
 > La OVA todavía se descarga desde Proton Drive, ya que Alcázar-OS no dispone actualmente de una web oficial ni de un enlace de descarga propio.
 >
 > **Descarga:** [Alcázar-OS v1.0](https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
 >
 > **SHA-256:**  
 > `0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233`
+
+### Enlace de descarga
 
 
 ## ⚖️ Uso responsable
