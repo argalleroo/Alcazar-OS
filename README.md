@@ -148,12 +148,17 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 ## 📦 Documentación y descarga
 
 > [!WARNING]
-> La OVA todavía se descarga desde un protondrive al no tener aun un enlace oficial de descarga al no tener la > web oficial
+> La OVA todavía se descarga desde un protondrive al no tener aun un enlace oficial de descarga al no tener la web oficial
 
 ### Enlace de descarga
 
 
 `[URL_DE_DESCARGA]`(https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
+
+< [Integridad del artefacto].
+< la imagen OVA final se acompaña de una suma SHA-256 que permite verificar que el archivo evaluado coincide exactamente con el artefacto generado durante la fase final del proyecto y que no ha sufrido modificaciones posteriores.
+< SHA-256 de la OVA final:
+0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233
 
 ## ⚖️ Uso responsable
 
