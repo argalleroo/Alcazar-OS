@@ -153,12 +153,14 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 ### Enlace de descarga
 
 
-`[URL_DE_DESCARGA]`(https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
+> [!WARNING]
+> La OVA todavía se descarga desde Proton Drive, ya que Alcázar-OS no dispone actualmente de una web oficial ni de un enlace de descarga propio.
+>
+> **Descarga:** [Alcázar-OS v1.0](https://drive.proton.me/urls/ERXSVE5ZPM#vue2crKKBnwj)
+>
+> **SHA-256:**  
+> `0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233`
 
-< [Integridad del artefacto].
-< la imagen OVA final se acompaña de una suma SHA-256 que permite verificar que el archivo evaluado coincide exactamente con el artefacto generado durante la fase final del proyecto y que no ha sufrido modificaciones posteriores.
-< SHA-256 de la OVA final:
-0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233
 
 ## ⚖️ Uso responsable
 
