@@ -156,8 +156,19 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 > `0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233`
 ### Credenciales
 
-USER: alcazar-os
-PASWORD: 1234
+<div class="credentials-card">
+  <h3>🔐 Credenciales</h3>
+
+  <div class="credential">
+    <span class="label">Usuario</span>
+    <code>alcazar-os</code>
+  </div>
+
+  <div class="credential">
+    <span class="label">Contraseña</span>
+    <code>1234</code>
+  </div>
+</div>
 
 ### Enlace de descarga
 
