@@ -154,7 +154,6 @@ investigación se incorporarán progresivamente en `assets/capturas/`.
 >
 > **SHA-256:**  
 > `0242bfb3d127152f22ddf3da46f48c826798bba980ef559adbd6672cbfa8b233`
-### Credenciales
 
 <div class="credentials-card">
   <h3>🔐 Credenciales</h3>
